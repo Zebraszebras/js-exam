@@ -1,0 +1,255 @@
+body {
+    margin: 0;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #534242;
+    height: 100px;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+    color: wheat;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .logo {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  header ul {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+
+  }
+  
+  li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+  }
+  
+  .logo span {
+    color: wheat;
+    font-weight: bold;
+    font-family: 'Caveat';
+    font-size: 22px;
+  }
+  
+  .logo img {
+    height: 60px;
+    border-radius: 5px;
+  }
+  
+  header ul li a {
+    text-decoration: none;
+    color: wheat;
+    font-weight: bold;
+    font-family: 'Caveat';
+    font-size: 22px;
+  }
+
+  .books-wrapper {
+
+    min-height: calc(100vh - 200px);
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .book-link{
+
+    height: 300px;
+  }
+  a {
+    text-decoration: none;
+  }
+.price {
+    font-size: 26px;
+    font-weight: bold;
+}
+  .wrapper {
+    width: 450px;
+    height: 500px;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: 0.3s;
+    color: rgb(11, 0, 0);
+    font-family: 'Caveat';
+}
+.wrapper img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.title-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.title {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+  @media only screen and (max-width: 768px)
+.wrapper {
+    width: 360px;
+}
+
+
+  footer {
+    
+    margin-top: auto;
+    background-color:  #534242;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    color: wheat;
+    font-weight: bold;
+    font-family: 'Caveat';
+    font-size: 18px;
+  }
+
+  .book-link {
+    height: 300px;
+  }
+  
+  .book-wrapper {
+    background-color: #f9e8e8;
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border: 1px solid rgb(203, 201, 201);
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Caveat';
+  }
+  
+  .book-section {
+    min-height: calc(100vh - 200px);
+  }
+  
+  .book-photo {
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .book-content {
+    padding: 16px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .book-name {
+    font-size: 36px;
+    margin-bottom: 8px;
+  }
+  
+  .book-description {
+    margin-bottom: 15px;
+    line-height: 1.2;
+    font-size: 22px;
+    
+  }
+  
+  .book-price {
+    font-size: 24px;
+    margin-bottom: 4px;
+  }
+
+.book-form-wrapper{
+
+    min-height: calc(100vh - 200px);
+    margin-top: 60px;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+
+}
+  .book-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 70%;
+}
+#name, 
+#price, 
+#description,
+#location,
+#photo,
+#submit,
+#goBack {
+  border-radius: 5px;
+  border-color: wheat;
+  font-size: 28px;
+  font-family: 'Caveat';
+  padding: 5px;
+} 
+
+#deleteButton {
+
+  border-radius: 5px;
+  border-color: wheat;
+  font-size: 18px;
+  font-family: 'Caveat';
+  padding: 5px;
+  margin-top: 8px;
+}
+
+#name:hover, 
+#price:hover, 
+#description:hover,
+#location:hover,
+#photo:hover {
+  background-color: beige;
+}
+
+#submit:hover,
+#goBack:hover,
+#deleteButton:hover {
+  background-color: #534242;
+}
+
+.photo {
+  max-width: 100%;
+  max-height: 400px;
+}
+
+/*input::placeholder{
+  font-family: 'Caveat'
+}*/
